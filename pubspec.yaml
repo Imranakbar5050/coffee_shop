@@ -1,0 +1,50 @@
+name: coffee_shop
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+#------------------------------------------ ./ Dependencies ---------------------------------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  flutter_launcher_icons: ^0.9.2
+
+
+
+#--------------------------------------------------------------------------------------------------#
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+#---------------------------------- ./ Local Assets -----------------------------------------------#
+  assets:
+    - assets/images/
+    - assets/logos/
+    - assets/fonts/
+    - assets/icons/
+
+#---------------------------------------------------------------#
+
+flutter_icons:
+  android: true
+  image_path: "assets/logos/app_logo.png"
+  android_icon_size: 22
+   
